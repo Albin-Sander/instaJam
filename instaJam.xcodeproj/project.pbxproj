@@ -13,6 +13,8 @@
 		B1BD0EB8278DCF170030120B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BD0EB7278DCF170030120B /* Preview Assets.xcassets */; };
 		B1BD0EC0278DF84E0030120B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD0EBF278DF84E0030120B /* CardView.swift */; };
 		B1BD0EC2278DF8AD0030120B /* LikeCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD0EC1278DF8AC0030120B /* LikeCommentView.swift */; };
+		B1F3379C278F45C10080D8BB /* TopNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3379B278F45C10080D8BB /* TopNav.swift */; };
+		B1F3379E278F460B0080D8BB /* ProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3379D278F460B0080D8BB /* ProfilePicture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B1BD0EB7278DCF170030120B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1BD0EBF278DF84E0030120B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B1BD0EC1278DF8AC0030120B /* LikeCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCommentView.swift; sourceTree = "<group>"; };
+		B1F3379B278F45C10080D8BB /* TopNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNav.swift; sourceTree = "<group>"; };
+		B1F3379D278F460B0080D8BB /* ProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				B1BD0EBF278DF84E0030120B /* CardView.swift */,
 				B1BD0EC1278DF8AC0030120B /* LikeCommentView.swift */,
+				B1F3379B278F45C10080D8BB /* TopNav.swift */,
+				B1F3379D278F460B0080D8BB /* ProfilePicture.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 				B1BD0EC0278DF84E0030120B /* CardView.swift in Sources */,
 				B1BD0EB1278DCF150030120B /* instaJamApp.swift in Sources */,
 				B1BD0EC2278DF8AD0030120B /* LikeCommentView.swift in Sources */,
+				B1F3379E278F460B0080D8BB /* ProfilePicture.swift in Sources */,
+				B1F3379C278F45C10080D8BB /* TopNav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

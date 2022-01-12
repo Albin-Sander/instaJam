@@ -10,55 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            TopNav()
             HStack {
-                Text("InstaJam")
-                    .font(.title)
-                    
-                    .padding(.trailing, 130)
-                Image(systemName: "plus.circle")
-                    .font(.system(size: 25))
-                Image(systemName: "heart")
-                    .font(.system(size: 25))
-                Image(systemName: "paperplane")
-                    .font(.system(size: 25))
-                    .padding(.trailing, 10)
-            }
-            HStack {
-            Circle()
-            .fill(Color.black)
-            .frame(width: 60, height: 60)
-            .overlay(
-            RoundedRectangle(cornerRadius: 100)
-                .stroke(Color.purple, lineWidth: 4)
-                )
-            Circle()
-            .fill(Color.black)
-            .frame(width: 60, height: 60)
-            .overlay(
-            RoundedRectangle(cornerRadius: 100)
-                .stroke(Color.purple, lineWidth: 4)
-                )
-            Circle()
-            .fill(Color.black)
-            .frame(width: 60, height: 60)
-            .overlay(
-            RoundedRectangle(cornerRadius: 100)
-                .stroke(Color.purple, lineWidth: 4)
-                )
-            Circle()
-            .fill(Color.black)
-            .frame(width: 60, height: 60)
-            .overlay(
-            RoundedRectangle(cornerRadius: 100)
-                .stroke(Color.purple, lineWidth: 4)
-                )
-            Circle()
-                .fill(Color.black)
-                .frame(width: 60, height: 60)
-                .overlay(
-                RoundedRectangle(cornerRadius: 100)
-                    .stroke(Color.purple, lineWidth: 4)
-                    )
+            ProfilePicture()
+            ProfilePicture()
+            ProfilePicture()
+            ProfilePicture()
+            ProfilePicture()
             }
             CardView()
             Spacer()
