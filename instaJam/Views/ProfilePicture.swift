@@ -11,7 +11,7 @@ struct ProfilePicture: View {
     var body: some View {
         Image(systemName: "person.crop.circle")
             .font(.system(size: 40))
-            .frame(width: 60, height: 60)
+            .frame(width: 40, height: 40)
                     .clipShape(Circle())
                     
                     .shadow(radius: 10)

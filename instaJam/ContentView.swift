@@ -12,11 +12,11 @@ struct ContentView: View {
         VStack {
             TopNav()
             HStack() {
-            ProfilePicture()
-            ProfilePicture()
-            ProfilePicture()
-            ProfilePicture()
-            ProfilePicture()
+            StoryProfile()
+            StoryProfile()
+            StoryProfile()
+            StoryProfile()
+            StoryProfile()
             }
             CardView()
                 .padding(.top, 50)

@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct LikeCommentView: View {
+    @State private var fillHeart = "heart"
+    
+    
+    func fill() {
+        if(fillHeart == "heart") {
+            fillHeart = "heart.fill"
+        } else {
+            fillHeart = "heart"
+        }
+    }
     var body: some View {
         HStack {
-            Image(systemName: "heart")
-                .font(.system(size: 25))
-                .padding(.top)
+            Button {
+                print("Button was tapped")
+                fill()
+            } label: {
+                if(fillHeart == "heart") {
+                    
+                
+                Image(systemName: fillHeart)
+                    .font(.system(size: 25))
+                    .padding(.top)
+                    .foregroundColor(Color.black)
+                } else {
+                    Image(systemName: fillHeart)
+                        .font(.system(size: 25))
+                        .padding(.top)
+                        .foregroundColor(Color.red)
+                }
+            }
+           
             
             Image(systemName: "message")
                 .font(.system(size: 25))

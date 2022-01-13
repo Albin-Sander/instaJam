@@ -31,8 +31,16 @@ struct CardView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 25))
                 
                 LikeCommentView()
-                Text("Coffee Morning")
-                    .padding(.top, 10)
+                HStack {
+                    Text("Coffeeman123")
+                        .foregroundColor(Color.blue)
+                    Text("Coffee Morning")
+                        
+                }
+                .padding(.top, 10)
+                .padding(.trailing, 120)
+                
+                    
         }
     }
 }

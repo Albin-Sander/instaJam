@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1985D1B279041AB0043C213 /* StoryProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1985D1A279041AB0043C213 /* StoryProfile.swift */; };
 		B1BD0EB1278DCF150030120B /* instaJamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD0EB0278DCF150030120B /* instaJamApp.swift */; };
 		B1BD0EB3278DCF150030120B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD0EB2278DCF150030120B /* ContentView.swift */; };
 		B1BD0EB5278DCF170030120B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BD0EB4278DCF170030120B /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1985D1A279041AB0043C213 /* StoryProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryProfile.swift; sourceTree = "<group>"; };
 		B1BD0EAD278DCF150030120B /* instaJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BD0EB0278DCF150030120B /* instaJamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaJamApp.swift; sourceTree = "<group>"; };
 		B1BD0EB2278DCF150030120B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				B1BD0EC1278DF8AC0030120B /* LikeCommentView.swift */,
 				B1F3379B278F45C10080D8BB /* TopNav.swift */,
 				B1F3379D278F460B0080D8BB /* ProfilePicture.swift */,
+				B1985D1A279041AB0043C213 /* StoryProfile.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				B1BD0EB3278DCF150030120B /* ContentView.swift in Sources */,
 				B1BD0EC0278DF84E0030120B /* CardView.swift in Sources */,
 				B1BD0EB1278DCF150030120B /* instaJamApp.swift in Sources */,
+				B1985D1B279041AB0043C213 /* StoryProfile.swift in Sources */,
 				B1BD0EC2278DF8AD0030120B /* LikeCommentView.swift in Sources */,
 				B1F3379E278F460B0080D8BB /* ProfilePicture.swift in Sources */,
 				B1F3379C278F45C10080D8BB /* TopNav.swift in Sources */,
