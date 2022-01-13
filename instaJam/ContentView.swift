@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TopNav()
-            HStack {
+            HStack() {
             ProfilePicture()
             ProfilePicture()
             ProfilePicture()
@@ -19,6 +19,7 @@ struct ContentView: View {
             ProfilePicture()
             }
             CardView()
+                .padding(.top, 50)
             Spacer()
         }
     }

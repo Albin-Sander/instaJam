@@ -9,13 +9,16 @@ import SwiftUI
 
 struct ProfilePicture: View {
     var body: some View {
-        Circle()
-        .fill(Color.black)
-        .frame(width: 60, height: 60)
-        .overlay(
-        RoundedRectangle(cornerRadius: 100)
-            .stroke(Color.purple, lineWidth: 4)
-            )
+        Image(systemName: "person.crop.circle")
+            .font(.system(size: 40))
+            .frame(width: 60, height: 60)
+                    .clipShape(Circle())
+                    
+                    .shadow(radius: 10)
+                    .overlay(
+                            RoundedRectangle(cornerRadius: 100)
+                                .stroke(Color.purple, lineWidth: 4)
+                                )
     }
 }
 
